@@ -69,6 +69,8 @@ HOF
 <p>352 rows × 8 columns</p>
 </div>
 
+# This Data is pulled directly from www.baseball-reference.com
+
 ``` python
 HOF = HOF.rename(columns={'Unnamed: 2':'Dates'})
 HOF
@@ -193,6 +195,8 @@ plt.show()
 ```
 
 ![](HOF_Analysis_files/figure-commonmark/cell-14-output-1.png)
+
+# Let's see the split of those who died before and after the vote  
 
 ``` python
 print("Died after Vote:", (HOF2['Date Diff'] > 0).sum())
@@ -651,7 +655,7 @@ focused on players from earlier eras with a mix of timing.
 
 ## Negro League
 
-## This was almost exclusively for correcting historical injustices - electing Negro League stars long after their deaths.
+This was almost exclusively for correcting historical injustices - electing Negro League stars long after their deaths.
 
 Looking at the data, the story becomes clear about how different voting
 bodies approach Hall of Fame elections, and where Ron Santo’s journey
