@@ -1,6 +1,6 @@
 ---
 title: "My_Personal_Beef_with_the_Baseball_HOF"
-format: html
+format: gfm
 ---
 
 # The Morbid Mathematics of Hall of Fame Voting
@@ -208,6 +208,7 @@ def bucket_all_values(value):
             return 'Died 30+ years before the vote (historical legacy)'
 
 bucketed2 = HOF2['Date Diff'].apply(bucket_all_values)
+HOF2['Status'] = bucketed2
 counts2 = bucketed2.value_counts()
 counts2 
 ```
