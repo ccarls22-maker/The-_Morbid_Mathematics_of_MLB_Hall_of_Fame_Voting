@@ -182,7 +182,7 @@ HOF2 = HOF.copy()
 HOF['Date Diff'] = HOF['Date Diff'].where(HOF['Date Diff'] <= 0)
 ```
 
-# Getting a rouch idea where trend may lie
+# Getting a rough idea where the trend may lie
 
 ``` python
 import seaborn as sns
