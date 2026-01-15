@@ -682,3 +682,9 @@ election stands as both a bittersweet victory and a testament to how
 baseball ultimately corrects its oversights - even if it takes decades
 and requires a different set of voters to see what the writers missed.
 
+# Bonus
+
+Just to prove I wasn't lying about the whole, I named my dog after a dead baseball player. Here's a cute picture of him! 
+
+
+![The Best Dog](SANTO.jpg)
